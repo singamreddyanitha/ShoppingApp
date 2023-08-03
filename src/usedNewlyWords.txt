@@ -1,0 +1,9 @@
+1. Navigate => It is a Component, based on logic or conditions used to declare navigation. i.e  => {state && <Navigate to = "/} />
+
+2. useNavigate => It is a hook provided by React Router that returns a navigation function , It is used inside functional components to programmatically navigate to different routes (used in functional  programmimg to navigate path using user interactions or events in form or button submitions )
+i.e => useNavigate() => const navigate = useNavigate() => navigate("/new_path")
+
+3. Routes => instead of switch Component using Routes in vs code 
+Actually,  Routes is a Component, It is used to define multiple routes and their associated components in it.
+Route Component specifies a Url path and componennt rendered when the path is matched with current Url. 
+
