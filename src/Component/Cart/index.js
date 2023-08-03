@@ -8,7 +8,7 @@ import './index.css'
 
 const Cart = () => {
   const {cartList, removeAllCartItems} = useContext(CartContext)
- const showEmptyView = cartList.length === 0 
+ const showEmptyView = cartList.length === 0
 
  const onClickRemoveAllBtn = () => {
   removeAllCartItems()
