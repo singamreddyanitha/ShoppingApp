@@ -80,7 +80,9 @@ const ParentComponent = () => {
   return (
     <div>
     <Router>
-    <CartProviderContext
+    <CartProviderContext>
+
+    {/* // <CartProviderContext
     // value = {{
     //   cartList,
     //   addCartItem,
@@ -89,7 +91,7 @@ const ParentComponent = () => {
     //   decrementCartItemQuantity,
     //   removeAllCartItems,
     // }}
-    >
+    > */}
     <Routes>
     <Route exact path="/login" element={<LoginForm />} />
       <Route  element = {<ProtectedRoute/>}>
